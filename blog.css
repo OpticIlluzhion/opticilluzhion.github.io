@@ -1,0 +1,52 @@
+#blog {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.1rem; 
+    line-height: 1.4;
+    margin: 0 auto; 
+    max-width: 800px; 
+    padding: 1rem; 
+}
+
+#blog h1, #blog h2, #blog h3 {
+    font-family: 'Arial', sans-serif; 
+    font-weight: bold; 
+    margin: 0.1rem;
+    margin-top: 1.5rem;
+}
+
+#blog p {
+    line-height: 1.6;
+}
+#blog a {
+    color: #ffffff; 
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+#blog a:hover, #blog a:focus {
+    color: #00ccff; 
+}
+
+#blog #date {
+    color: #898989;
+    font-size: small;
+    margin-bottom: 1px;
+}
+
+#blog sup {
+    font-size: 0.6rem;
+}
+
+#blog img {
+    max-width: 100%; 
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+#blog blockquote {
+    font-style: italic;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-left: 4px solid #ccc;
+    color: #666;
+}

@@ -7,25 +7,27 @@
     <meta name="description" content="This is the About Me page for OpticIlluzhion.com">
     <title>About Me</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4c410d41d4.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav id="navbar"></nav>
     <main>
-    <h1>
-        About me
-    </h1>
+        <h1 data-text="About Me"></data-text>
+            About Me
+        </h1>
     <article>
-        <h2>
-            Personal info:
-        </h2>
         <p>
-            Hi, my name is Alex, although I mainly go by Optic online. Regarding pronouns etc. for those who are interested in that sort of thing, I'm the most basic he/him cishet white guy you can possibly get - the defaults seem to be working properly for me, barring the side dish of autism. I'm 20, born in Spain to parents who spoke English and German to me, but then we moved to Italy for three years and finally ended up in Switzerland, where I still live to this day. As a result of this, I can speak, read and write semi-fluently in five languages: English, German, Spanish, Italian and French (Swiss German doesn't count because I said so), although I'm most comfortable with English. I am owned by two cats, Frodo and Void, whom I am legally obligated to call the cutest and best boys. Because they are.
+            I go by Optic online mainly, although my real name is Alex. Regarding pronouns etc. for those who are interested in that sort of thing I go by he/him - the defaults seem to be working properly for me, at least when it comes to gender. I am owned by two cats, Void and Frodo, whom I am legally obligated to call the cutest and best boys. Because they are. I aspire to be a soundtrack composer for games and am applying for a degree in composition at the time of writing. I can speak, read and write in five languages (English, Spanish, Italian, German and French), although English is the only language I can say I'm truly comfortable in. Ultimately, technically this entire website is about me, so I've decided to keep this section relatively short.
         </p>
+
+        <figure>
+            <img src="media/void.jpg" alt="My cat Void" width="40%">
+            <img src="media/frodo.jpg" alt="My cat Frodo" width="40%">
+            <figcaption>My cats, Void and Frodo</figcaption>
+          </figure>
+
     </article>
     <article>
-        <h2>
-            Interests and hobbies:
-        </h2>
         <p>
             I've had a large variety of interests and hobbies growing up, although the ones that have stuck with me to this day are:
         </p>
@@ -41,7 +43,7 @@
                     Math, or at least the part of it which you can apply to physics, engineering, statistics and/or software development
                 </li>
                 <li>
-                    Programming and automation (I'm currently writing a file management app in Python, planning to write MIDI scripts to automate some aspects of msuic production and learning JS)
+                    Programming and automation (I'm currently writing a file management app in Python, planning to write MIDI scripts to automate some aspects of music production and learning C++ to hopefully contribute to MuseScore some time in the future)
                 </li>
                 <li>
                     Front end web dev
@@ -57,6 +59,6 @@
     </article>
     </main>
     <footer id="footer"></footer>
-    <script src="add_nav_and_footer.js"></script>
+    <script src="add_stuff_dynamically.js"></script>
 </body>
 </html>
