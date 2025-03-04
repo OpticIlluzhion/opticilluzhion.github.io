@@ -3,7 +3,7 @@
 
 <channel>
 
-  <title>Optic's Updates</title>
+  <title>Optic's Update Log</title>
   <link>https://www.opticilluzhion.com</link>
   <description>Site updates and Thought Dumps</description>
 
@@ -11,7 +11,7 @@
     <title>(Slightly Belated) March 2025 Update</title>
     <link>https://www.opticilluzhion.com#updates</link>
     <description>
-      Slightly belated March update, I have now officially started working on RSS feeds! Also, I now have a robots.txt file to (theoretically) prevent AI company crawlers from scraping my website, there's a new Monthly Project and a new Website Plans section on my &#x3C;a href=&#x22;https://opticilluzhion.com/my_projects.html&#x22;&#x3E;projects page&#x3C;/a&#x3E;. Fixed the bluesky link and added my logo as the website's icon
+      I have now officially started working on RSS feeds! Also, I now have a robots.txt file to (theoretically) prevent AI company crawlers from scraping my website, there's a new Monthly Project and a new Website Plans section on my &#x3C;a href=&#x22;https://opticilluzhion.com/my_projects.html&#x22;&#x3E;projects page&#x3C;/a&#x3E;. Fixed the bluesky link and added my logo as the website's icon
     </description>
     <pubDate>Tue, 04 Mar 2025 10:13:07 +0000</pubDate>
   </item>

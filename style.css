@@ -211,6 +211,59 @@ figcaption {
     color: #fff;
 }
 
+#rss {
+    margin: auto;
+    box-sizing: border-box;
+	border: 5px solid rgb(255, 255, 255);
+    border-radius: 25px;
+	padding: 50px;
+    height: 400px;
+    overflow: auto;
+}
+
+
+#rss::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    }
+    
+    #rss::-webkit-scrollbar-track {
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+    }
+
+    #rss::-webkit-scrollbar-button {
+        color: #ffffff00;
+    }
+    
+    #rss::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.701);  
+    border-radius: 10px;
+    }
+
+    #rss::-webkit-scrollbar-thumb:hover {
+        background: rgb(245, 245, 245);  
+        border-radius: 10px;
+    }
+
+#rss a {
+    text-decoration: none;
+}
+
+#rss h3 {
+    margin: 0.1px;
+}
+
+#rss h4 {
+    margin-bottom: 0.7rem;
+}
+
+#rss a:hover, #rss a:focus {
+    color:white;
+    text-decoration: underline;
+}
+
 footer {
     display: flex;
     flex-direction: column;
